@@ -8,6 +8,10 @@ class Driver {
 
     store.drivers.push(this)
   }
+
+  trips() {
+    return store.trips.find(trip => trip.driverId === this.id)
+  }
 }
 
 let passengerId = 0
@@ -38,8 +42,3 @@ class Trip {
     return store.drivers.find(driver => driver.id === this.driverId)
   }
 }
-
-
-
-
-
