@@ -14,7 +14,7 @@ class Driver {
   }
 
   passengers() {
-    return typeof this.trips
+    return this.trips.map(trip => trip.driver)
   }
 }
 
