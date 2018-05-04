@@ -14,7 +14,7 @@ class Driver {
   }
 
   passengers() {
-    return typeOf this.trips
+    return typeof this.trips
   }
 }
 
