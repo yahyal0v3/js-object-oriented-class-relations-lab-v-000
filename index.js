@@ -1,8 +1,8 @@
 class Driver {
-  id = 0
-  
+  driverId = 0
+
   constructor(name) {
-    this.id = ++id
+    this.id = ++driverId
     this.name = name
   }
 }
