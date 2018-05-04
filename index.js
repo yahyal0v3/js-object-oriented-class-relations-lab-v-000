@@ -1,4 +1,4 @@
-let store = {drivers: [], passengers: []}
+let store = {drivers: [], passengers: [], trip: []}
 let driverId = 0
 
 class Driver {
@@ -22,5 +22,8 @@ class Passenger {
 }
 
 class Trip {
-  
+  constructor(driver, passenger) {
+    this.driver = driver.id
+    this.passenger = passenger.id
+  }
 }
