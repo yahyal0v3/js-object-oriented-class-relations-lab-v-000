@@ -31,6 +31,6 @@ class Trip {
   }
 
   passenger() {
-    store.passengers.filter(passenger => return passenger.id === this.passengerId)
+    store.passengers.filter(passenger => assenger.id === this.passengerId)
   }
 }
